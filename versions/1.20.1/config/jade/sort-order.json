@@ -41,6 +41,9 @@
   "minecraft:chiseled_bookshelf": null,
   "minecraft:item_display": null,
   "minecraft:block_display": null,
+  "minecraft:item_ber": null,
+  "minecraft:item_storage": null,
+  "minecraft:fluid_storage": null,
   "jade:object_name": null,
   "jade:registry_name": null,
   "jade:mod_name": null,
@@ -70,6 +73,7 @@
   "minecraft:enchantment_power": null,
   "minecraft:total_enchantment_power": null,
   "minecraft:player_head": null,
+  "minecraft:item_ber": null,
   "minecraft:villager_profession": null,
   "minecraft:item_tooltip": null,
   "minecraft:falling_block": null,
@@ -79,8 +83,8 @@
   "minecraft:mob_spawner": null,
   "minecraft:item_display": null,
   "minecraft:block_display": null,
-  "minecraft:block_inventory": null,
-  "minecraft:fluid": null,
+  "minecraft:item_storage": null,
+  "minecraft:fluid_storage": null,
   "minecraft:energy_storage": null,
   "minecraft:progress": null
 }
