@@ -19,7 +19,7 @@ fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
-darkMojangStudiosBackground:false
+darkMojangStudiosBackground:true
 hideLightningFlashes:false
 mouseSensitivity:0.5
 fov:0.75
@@ -120,10 +120,6 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.dynamicfps.toggle_forced:key.keyboard.unknown
 key_key.dynamicfps.toggle_disabled:key.keyboard.unknown
-key_Skip Forward:key.keyboard.unknown
-key_Skip Previous:key.keyboard.unknown
-key_Toggle Playing:key.keyboard.unknown
-key_Toggle Spotify HUD:key.keyboard.unknown
 key_key.do_a_barrel_roll.toggle_enabled:key.keyboard.l
 key_key.do_a_barrel_roll.toggle_thrust:key.keyboard.unknown
 key_key.do_a_barrel_roll.pitch_up:key.keyboard.unknown
@@ -151,16 +147,16 @@ key_zoomify.key.zoom.secondary:key.keyboard.f6
 key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
-soundCategory_master:1.0
-soundCategory_music:1.0
-soundCategory_record:1.0
-soundCategory_weather:1.0
-soundCategory_block:1.0
-soundCategory_hostile:1.0
-soundCategory_neutral:1.0
-soundCategory_player:1.0
-soundCategory_ambient:1.0
-soundCategory_voice:1.0
+soundCategory_master:0.4
+soundCategory_music:0.15962441314553985
+soundCategory_record:0.8
+soundCategory_weather:0.5
+soundCategory_block:0.8
+soundCategory_hostile:0.8
+soundCategory_neutral:0.6
+soundCategory_player:0.8
+soundCategory_ambient:0.6
+soundCategory_voice:0.8
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true
