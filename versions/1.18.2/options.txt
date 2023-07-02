@@ -9,7 +9,7 @@ entityShadows:false
 forceUnicodeFont:false
 discrete_mouse_scroll:false
 invertYMouse:false
-realmsNotifications:true
+realmsNotifications:false
 reducedDebugInfo:false
 showSubtitles:false
 touchscreen:false
@@ -17,7 +17,7 @@ fullscreen:true
 bobView:false
 toggleCrouch:false
 toggleSprint:false
-darkMojangStudiosBackground:false
+darkMojangStudiosBackground:true
 hideLightningFlashes:false
 mouseSensitivity:0.5
 fov:0.75
@@ -35,7 +35,7 @@ graphicsMode:0
 ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
-renderClouds:fast
+renderClouds:false
 resourcePacks:["Fabric Mods"]
 incompatibleResourcePacks:[]
 lastServer:
@@ -73,7 +73,7 @@ joinedFirstServer:false
 hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
-allowServerListing:true
+allowServerListing:false
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
 key_key.forward:key.keyboard.w
@@ -122,23 +122,6 @@ key_key.jade.show_overlay:key.keyboard.keypad.1
 key_key.jade.toggle_liquid:key.keyboard.keypad.2
 key_key.jade.narrate:key.keyboard.keypad.5
 key_key.jade.show_details_alternative:key.keyboard.unknown
-key_key.journeymap.zoom_in:key.keyboard.equal
-key_key.journeymap.zoom_out:key.keyboard.minus
-key_key.journeymap.minimap_type:key.keyboard.left.bracket
-key_key.journeymap.minimap_preset:key.keyboard.backslash
-key_key.journeymap.create_waypoint:key.keyboard.b
-key_key.journeymap.toggle_waypoints:key.keyboard.z
-key_key.journeymap.fullscreen_create_waypoint:key.keyboard.b
-key_key.journeymap.fullscreen_chat_position:key.keyboard.c
-key_key.journeymap.map_toggle_alt:key.keyboard.j
-key_key.journeymap.fullscreen_waypoints:key.keyboard.n
-key_key.journeymap.minimap_toggle_alt:key.keyboard.m
-key_key.journeymap.fullscreen_options:key.keyboard.o
-key_key.journeymap.fullscreen.north:key.keyboard.up
-key_key.journeymap.fullscreen.south:key.keyboard.down
-key_key.journeymap.fullscreen.east:key.keyboard.right
-key_key.journeymap.fullscreen.west:key.keyboard.left
-key_key.journeymap.fullscreen.disable_buttons:key.keyboard.h
 key_key.midnightcontrols.look_up:key.keyboard.keypad.8
 key_key.midnightcontrols.look_right:key.keyboard.keypad.6
 key_key.midnightcontrols.look_down:key.keyboard.keypad.2
@@ -150,7 +133,7 @@ key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 soundCategory_master:0.5033113
-soundCategory_music:0.5046948
+soundCategory_music:0.15
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
