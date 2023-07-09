@@ -7,3 +7,8 @@ My personal project where I look for the FPS and the graphics, keeping a vanilla
 *Waffle's OP* modpack is intended to be a set of ready-made mods based on [**Simply Optimized**](https://modrinth.com/modpack/sop) to achieve a balance of *performance* and *graphics*, this will improve your **FPS** and **graphics**. Unlike other modpacks, *Waffle's OP* focuses on performance and quality. ***With QoL improvements.***
 
 There are more details on the main modpack page which is located at [modrinth](https://modrinth.com/modpack/wafflesop).
+
+---
+
+<a href="https://github.com/WaffleIBOT/wafflesoptimization">
+    <img src="https://cdn.discordapp.com/attachments/1036412645387014252/1127726153491288074/modrinth_64h.png">
