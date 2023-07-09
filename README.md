@@ -10,5 +10,5 @@ There are more details on the main modpack page which is located at [modrinth](h
 
 ---
 
-<a href="https://github.com/WaffleIBOT/wafflesoptimization">
+<a href="https://modrinth.com/modpack/wafflesop">
     <img src="https://cdn.discordapp.com/attachments/1036412645387014252/1127726153491288074/modrinth_64h.png">
