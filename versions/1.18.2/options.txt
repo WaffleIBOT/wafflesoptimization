@@ -36,7 +36,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:false
-resourcePacks:["Fabric Mods"]
+resourcePacks:["vanilla","Fabric Mods","continuity/default"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -110,10 +110,6 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.dynamicfps.toggle_forced:key.keyboard.unknown
 key_key.dynamicfps.toggle_disabled:key.keyboard.unknown
-key_Skip Forward:key.keyboard.unknown
-key_Skip Previous:key.keyboard.unknown
-key_Toggle Playing:key.keyboard.unknown
-key_Toggle Spotify HUD:key.keyboard.unknown
 key_key.do_a_barrel_roll.toggle_enabled:key.keyboard.l
 key_key.do_a_barrel_roll.toggle_thrust:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown

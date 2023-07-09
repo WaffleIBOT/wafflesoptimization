@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["fabric"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","fabric","file/Chat Reporting Helper.zip","continuity:default","file/Fast Better Grass.zip"]
+incompatibleResourcePacks:["continuity:default"]
 lastServer:
 lang:en_us
 soundDevice:""

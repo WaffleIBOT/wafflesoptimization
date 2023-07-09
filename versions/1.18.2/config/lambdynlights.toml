@@ -28,6 +28,7 @@ mode = "fancy"
 				chest_minecart = true
 				tropical_fish = true
 				pig = true
+				slime = true
 				skeleton = true
 				bat = true
 				zombie = true

@@ -39,6 +39,7 @@ mode = "fancy"
 				sheep = true
 				experience_orb = true
 				player = true
+				dolphin = true
 				item = true
 				turtle = true
 				wolf = true
