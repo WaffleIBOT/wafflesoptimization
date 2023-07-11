@@ -1,0 +1,859 @@
+{
+  "current_controller": null,
+  "controllers": {
+    "43b44959-9383-39ea-9007-affe6fe62ddf": {
+      "config": {
+        "left_stick_deadzone": 0.05001526,
+        "right_stick_deadzone": 0.05001526,
+        "gyro_look_sensitivity": 0.0,
+        "relative_gyro_mode": false,
+        "gyro_requires_button": true,
+        "flick_stick": false,
+        "invert_gyro_x": false,
+        "invert_gyro_y": false,
+        "gyro_calibration": {
+          "x": -2.55935E-4,
+          "y": 9.5462304E-4,
+          "z": -9.008279E-4
+        },
+        "theme": "DEFAULT",
+        "horizontal_look_sensitivity": 1.0,
+        "vertical_look_sensitivity": 0.9,
+        "button_activation_threshold": 0.5,
+        "virtual_mouse_sensitivity": 1.0,
+        "auto_jump": false,
+        "toggle_sprint": true,
+        "toggle_sneak": true,
+        "custom_name": null,
+        "show_ingame_guide": true,
+        "show_screen_guide": true,
+        "chat_keyboard_height": 0.0,
+        "reduce_aiming_sensitivity": true,
+        "allow_vibrations": true,
+        "vibration_strengths": {
+          "controlify:master": 1.0,
+          "controlify:damage": 1.0,
+          "controlify:block_destroy": 1.0,
+          "controlify:use_item": 1.0,
+          "controlify:item_break": 1.0,
+          "controlify:gui": 1.0,
+          "controlify:explosion": 1.0,
+          "controlify:misc": 1.0,
+          "controlify:global_event": 1.0
+        },
+        "deadzones_calibrated": true
+      },
+      "bindings": {
+        "controlify:walk_forward": {
+          "type": "gamepad",
+          "bind": "left_stick_up"
+        },
+        "controlify:walk_backward": {
+          "type": "gamepad",
+          "bind": "left_stick_down"
+        },
+        "controlify:strafe_left": {
+          "type": "gamepad",
+          "bind": "left_stick_left"
+        },
+        "controlify:strafe_right": {
+          "type": "gamepad",
+          "bind": "left_stick_right"
+        },
+        "controlify:look_up": {
+          "type": "gamepad",
+          "bind": "right_stick_up"
+        },
+        "controlify:look_down": {
+          "type": "gamepad",
+          "bind": "right_stick_down"
+        },
+        "controlify:look_left": {
+          "type": "gamepad",
+          "bind": "right_stick_left"
+        },
+        "controlify:look_right": {
+          "type": "gamepad",
+          "bind": "right_stick_right"
+        },
+        "controlify:gamepad_gyro_button": {
+          "type": "empty"
+        },
+        "controlify:jump": {
+          "type": "gamepad",
+          "bind": "a_button"
+        },
+        "controlify:sprint": {
+          "type": "gamepad",
+          "bind": "left_stick_press"
+        },
+        "controlify:sneak": {
+          "type": "gamepad",
+          "bind": "right_stick_press"
+        },
+        "controlify:attack": {
+          "type": "gamepad",
+          "bind": "right_trigger"
+        },
+        "controlify:use": {
+          "type": "gamepad",
+          "bind": "left_trigger"
+        },
+        "controlify:drop": {
+          "type": "gamepad",
+          "bind": "b_button"
+        },
+        "controlify:drop_stack": {
+          "type": "empty"
+        },
+        "controlify:next_slot": {
+          "type": "gamepad",
+          "bind": "right_bumper"
+        },
+        "controlify:prev_slot": {
+          "type": "gamepad",
+          "bind": "left_bumper"
+        },
+        "controlify:pause": {
+          "type": "gamepad",
+          "bind": "start"
+        },
+        "controlify:inventory": {
+          "type": "gamepad",
+          "bind": "y_button"
+        },
+        "controlify:change_perspective": {
+          "type": "gamepad",
+          "bind": "back"
+        },
+        "controlify:swap_hands": {
+          "type": "gamepad",
+          "bind": "x_button"
+        },
+        "controlify:open_chat": {
+          "type": "gamepad",
+          "bind": "dpad_right"
+        },
+        "controlify:gui_press": {
+          "type": "gamepad",
+          "bind": "a_button"
+        },
+        "controlify:gui_back": {
+          "type": "gamepad",
+          "bind": "b_button"
+        },
+        "controlify:gui_next_tab": {
+          "type": "gamepad",
+          "bind": "right_bumper"
+        },
+        "controlify:gui_prev_tab": {
+          "type": "gamepad",
+          "bind": "left_bumper"
+        },
+        "controlify:gui_abstract_action_1": {
+          "type": "gamepad",
+          "bind": "x_button"
+        },
+        "controlify:gui_abstract_action_2": {
+          "type": "gamepad",
+          "bind": "y_button"
+        },
+        "controlify:inv_select": {
+          "type": "gamepad",
+          "bind": "a_button"
+        },
+        "controlify:inv_quick_move": {
+          "type": "gamepad",
+          "bind": "y_button"
+        },
+        "controlify:inv_take_half": {
+          "type": "gamepad",
+          "bind": "x_button"
+        },
+        "controlify:pick_block": {
+          "type": "gamepad",
+          "bind": "dpad_up"
+        },
+        "controlify:toggle_hud_visibility": {
+          "type": "empty"
+        },
+        "controlify:show_player_list": {
+          "type": "gamepad",
+          "bind": "dpad_down"
+        },
+        "controlify:vmouse_move_up": {
+          "type": "gamepad",
+          "bind": "left_stick_up"
+        },
+        "controlify:vmouse_move_down": {
+          "type": "gamepad",
+          "bind": "left_stick_down"
+        },
+        "controlify:vmouse_move_left": {
+          "type": "gamepad",
+          "bind": "left_stick_left"
+        },
+        "controlify:vmouse_move_right": {
+          "type": "gamepad",
+          "bind": "left_stick_right"
+        },
+        "controlify:vmouse_lclick": {
+          "type": "gamepad",
+          "bind": "a_button"
+        },
+        "controlify:vmouse_rclick": {
+          "type": "gamepad",
+          "bind": "x_button"
+        },
+        "controlify:vmouse_shift_click": {
+          "type": "gamepad",
+          "bind": "y_button"
+        },
+        "controlify:vmouse_scroll_up": {
+          "type": "gamepad",
+          "bind": "right_stick_up"
+        },
+        "controlify:vmouse_scroll_down": {
+          "type": "gamepad",
+          "bind": "right_stick_down"
+        },
+        "controlify:vmouse_shift": {
+          "type": "gamepad",
+          "bind": "left_stick_press"
+        },
+        "controlify:vmouse_toggle": {
+          "type": "gamepad",
+          "bind": "back"
+        },
+        "controlify:gui_navi_up": {
+          "type": "gamepad",
+          "bind": "left_stick_up"
+        },
+        "controlify:gui_navi_down": {
+          "type": "gamepad",
+          "bind": "left_stick_down"
+        },
+        "controlify:gui_navi_left": {
+          "type": "gamepad",
+          "bind": "left_stick_left"
+        },
+        "controlify:gui_navi_right": {
+          "type": "gamepad",
+          "bind": "left_stick_right"
+        },
+        "controlify:cycle_opt_forward": {
+          "type": "gamepad",
+          "bind": "right_stick_right"
+        },
+        "controlify:cycle_opt_backward": {
+          "type": "gamepad",
+          "bind": "right_stick_left"
+        },
+        "controlify:clear_binding": {
+          "type": "gamepad",
+          "bind": "right_stick_press"
+        },
+        "do_a_barrel_roll:pitch_up": {
+          "type": "gamepad",
+          "bind": "right_stick_up"
+        },
+        "do_a_barrel_roll:pitch_down": {
+          "type": "gamepad",
+          "bind": "right_stick_down"
+        },
+        "do_a_barrel_roll:roll_left": {
+          "type": "gamepad",
+          "bind": "right_stick_left"
+        },
+        "do_a_barrel_roll:roll_right": {
+          "type": "gamepad",
+          "bind": "right_stick_right"
+        },
+        "do_a_barrel_roll:yaw_left": {
+          "type": "gamepad",
+          "bind": "left_stick_left"
+        },
+        "do_a_barrel_roll:yaw_right": {
+          "type": "gamepad",
+          "bind": "left_stick_right"
+        },
+        "do_a_barrel_roll:thrust_forward": {
+          "type": "gamepad",
+          "bind": "left_stick_up"
+        },
+        "do_a_barrel_roll:thrust_backward": {
+          "type": "gamepad",
+          "bind": "left_stick_down"
+        },
+        "fabric-key-binding-api-v1:key.dynamicfps.toggle_forced": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.dynamicfps.toggle_disabled": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:totemcounter.reset": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.toggle_enabled": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.toggle_thrust": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.pitch_up": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.pitch_down": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.yaw_left": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.yaw_right": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.roll_left": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.roll_right": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.thrust_forward": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.thrust_backward": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.entityculling.toggle": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:fpsreducer.key.opengui": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:fpsreducer.key.forceidle": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.jade.config": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.jade.show_overlay": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.jade.toggle_liquid": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.jade.narrate": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.jade.show_details_alternative": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.zoom_in": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.zoom_out": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.minimap_type": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.minimap_preset": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.create_waypoint": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.toggle_waypoints": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.fullscreen_create_waypoint": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.fullscreen_chat_position": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.map_toggle_alt": {
+          "type": "gamepad",
+          "bind": "guide"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.fullscreen_waypoints": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.minimap_toggle_alt": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.fullscreen_options": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.fullscreen.north": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.fullscreen.south": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.fullscreen.east": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.fullscreen.west": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.fullscreen.disable_buttons": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.modmenu.open_menu": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:zoomify.key.zoom": {
+          "type": "gamepad",
+          "bind": "dpad_left"
+        },
+        "fabric-key-binding-api-v1:zoomify.key.zoom.secondary": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:iris.keybind.reload": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:iris.keybind.toggleshaders": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:iris.keybind.shaderpackselection": {
+          "type": "empty"
+        }
+      }
+    },
+    "63938d7d-9420-39bd-bc62-cdd48a1bae12": {
+      "config": {
+        "left_stick_deadzone": 0.05001526,
+        "right_stick_deadzone": 0.05001526,
+        "gyro_look_sensitivity": 0.0,
+        "relative_gyro_mode": false,
+        "gyro_requires_button": true,
+        "flick_stick": false,
+        "invert_gyro_x": false,
+        "invert_gyro_y": false,
+        "gyro_calibration": {
+          "x": -0.004962651,
+          "y": 8.8042417E-4,
+          "z": -0.013660014
+        },
+        "theme": "DEFAULT",
+        "horizontal_look_sensitivity": 1.0,
+        "vertical_look_sensitivity": 0.9,
+        "button_activation_threshold": 0.5,
+        "virtual_mouse_sensitivity": 1.0,
+        "auto_jump": false,
+        "toggle_sprint": true,
+        "toggle_sneak": true,
+        "custom_name": null,
+        "show_ingame_guide": true,
+        "show_screen_guide": true,
+        "chat_keyboard_height": 0.0,
+        "reduce_aiming_sensitivity": true,
+        "allow_vibrations": true,
+        "vibration_strengths": {
+          "controlify:master": 1.0,
+          "controlify:damage": 1.0,
+          "controlify:block_destroy": 1.0,
+          "controlify:use_item": 1.0,
+          "controlify:item_break": 1.0,
+          "controlify:gui": 1.0,
+          "controlify:explosion": 1.0,
+          "controlify:misc": 1.0,
+          "controlify:global_event": 1.0
+        },
+        "deadzones_calibrated": true
+      },
+      "bindings": {
+        "controlify:walk_forward": {
+          "type": "gamepad",
+          "bind": "left_stick_up"
+        },
+        "controlify:walk_backward": {
+          "type": "gamepad",
+          "bind": "left_stick_down"
+        },
+        "controlify:strafe_left": {
+          "type": "gamepad",
+          "bind": "left_stick_left"
+        },
+        "controlify:strafe_right": {
+          "type": "gamepad",
+          "bind": "left_stick_right"
+        },
+        "controlify:look_up": {
+          "type": "gamepad",
+          "bind": "right_stick_up"
+        },
+        "controlify:look_down": {
+          "type": "gamepad",
+          "bind": "right_stick_down"
+        },
+        "controlify:look_left": {
+          "type": "gamepad",
+          "bind": "right_stick_left"
+        },
+        "controlify:look_right": {
+          "type": "gamepad",
+          "bind": "right_stick_right"
+        },
+        "controlify:gamepad_gyro_button": {
+          "type": "empty"
+        },
+        "controlify:jump": {
+          "type": "gamepad",
+          "bind": "a_button"
+        },
+        "controlify:sprint": {
+          "type": "gamepad",
+          "bind": "left_stick_press"
+        },
+        "controlify:sneak": {
+          "type": "gamepad",
+          "bind": "right_stick_press"
+        },
+        "controlify:attack": {
+          "type": "gamepad",
+          "bind": "right_trigger"
+        },
+        "controlify:use": {
+          "type": "gamepad",
+          "bind": "left_trigger"
+        },
+        "controlify:drop": {
+          "type": "gamepad",
+          "bind": "dpad_down"
+        },
+        "controlify:drop_stack": {
+          "type": "empty"
+        },
+        "controlify:next_slot": {
+          "type": "gamepad",
+          "bind": "right_bumper"
+        },
+        "controlify:prev_slot": {
+          "type": "gamepad",
+          "bind": "left_bumper"
+        },
+        "controlify:pause": {
+          "type": "gamepad",
+          "bind": "start"
+        },
+        "controlify:inventory": {
+          "type": "gamepad",
+          "bind": "y_button"
+        },
+        "controlify:change_perspective": {
+          "type": "gamepad",
+          "bind": "back"
+        },
+        "controlify:swap_hands": {
+          "type": "gamepad",
+          "bind": "x_button"
+        },
+        "controlify:open_chat": {
+          "type": "gamepad",
+          "bind": "dpad_up"
+        },
+        "controlify:gui_press": {
+          "type": "gamepad",
+          "bind": "a_button"
+        },
+        "controlify:gui_back": {
+          "type": "gamepad",
+          "bind": "b_button"
+        },
+        "controlify:gui_next_tab": {
+          "type": "gamepad",
+          "bind": "right_bumper"
+        },
+        "controlify:gui_prev_tab": {
+          "type": "gamepad",
+          "bind": "left_bumper"
+        },
+        "controlify:gui_abstract_action_1": {
+          "type": "gamepad",
+          "bind": "x_button"
+        },
+        "controlify:gui_abstract_action_2": {
+          "type": "gamepad",
+          "bind": "y_button"
+        },
+        "controlify:inv_select": {
+          "type": "gamepad",
+          "bind": "a_button"
+        },
+        "controlify:inv_quick_move": {
+          "type": "gamepad",
+          "bind": "y_button"
+        },
+        "controlify:inv_take_half": {
+          "type": "gamepad",
+          "bind": "x_button"
+        },
+        "controlify:pick_block": {
+          "type": "gamepad",
+          "bind": "dpad_left"
+        },
+        "controlify:toggle_hud_visibility": {
+          "type": "empty"
+        },
+        "controlify:show_player_list": {
+          "type": "gamepad",
+          "bind": "dpad_right"
+        },
+        "controlify:vmouse_move_up": {
+          "type": "gamepad",
+          "bind": "left_stick_up"
+        },
+        "controlify:vmouse_move_down": {
+          "type": "gamepad",
+          "bind": "left_stick_down"
+        },
+        "controlify:vmouse_move_left": {
+          "type": "gamepad",
+          "bind": "left_stick_left"
+        },
+        "controlify:vmouse_move_right": {
+          "type": "gamepad",
+          "bind": "left_stick_right"
+        },
+        "controlify:vmouse_lclick": {
+          "type": "gamepad",
+          "bind": "a_button"
+        },
+        "controlify:vmouse_rclick": {
+          "type": "gamepad",
+          "bind": "x_button"
+        },
+        "controlify:vmouse_shift_click": {
+          "type": "gamepad",
+          "bind": "y_button"
+        },
+        "controlify:vmouse_scroll_up": {
+          "type": "gamepad",
+          "bind": "right_stick_up"
+        },
+        "controlify:vmouse_scroll_down": {
+          "type": "gamepad",
+          "bind": "right_stick_down"
+        },
+        "controlify:vmouse_shift": {
+          "type": "gamepad",
+          "bind": "left_stick_press"
+        },
+        "controlify:vmouse_toggle": {
+          "type": "gamepad",
+          "bind": "back"
+        },
+        "controlify:gui_navi_up": {
+          "type": "gamepad",
+          "bind": "left_stick_up"
+        },
+        "controlify:gui_navi_down": {
+          "type": "gamepad",
+          "bind": "left_stick_down"
+        },
+        "controlify:gui_navi_left": {
+          "type": "gamepad",
+          "bind": "left_stick_left"
+        },
+        "controlify:gui_navi_right": {
+          "type": "gamepad",
+          "bind": "left_stick_right"
+        },
+        "controlify:cycle_opt_forward": {
+          "type": "gamepad",
+          "bind": "right_stick_right"
+        },
+        "controlify:cycle_opt_backward": {
+          "type": "gamepad",
+          "bind": "right_stick_left"
+        },
+        "controlify:clear_binding": {
+          "type": "gamepad",
+          "bind": "right_stick_press"
+        },
+        "do_a_barrel_roll:pitch_up": {
+          "type": "gamepad",
+          "bind": "right_stick_up"
+        },
+        "do_a_barrel_roll:pitch_down": {
+          "type": "gamepad",
+          "bind": "right_stick_down"
+        },
+        "do_a_barrel_roll:roll_left": {
+          "type": "gamepad",
+          "bind": "right_stick_left"
+        },
+        "do_a_barrel_roll:roll_right": {
+          "type": "gamepad",
+          "bind": "right_stick_right"
+        },
+        "do_a_barrel_roll:yaw_left": {
+          "type": "gamepad",
+          "bind": "left_stick_left"
+        },
+        "do_a_barrel_roll:yaw_right": {
+          "type": "gamepad",
+          "bind": "left_stick_right"
+        },
+        "do_a_barrel_roll:thrust_forward": {
+          "type": "gamepad",
+          "bind": "left_stick_up"
+        },
+        "do_a_barrel_roll:thrust_backward": {
+          "type": "gamepad",
+          "bind": "left_stick_down"
+        },
+        "fabric-key-binding-api-v1:key.dynamicfps.toggle_forced": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.dynamicfps.toggle_disabled": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:totemcounter.reset": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.toggle_enabled": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.toggle_thrust": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.pitch_up": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.pitch_down": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.yaw_left": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.yaw_right": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.roll_left": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.roll_right": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.thrust_forward": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.do_a_barrel_roll.thrust_backward": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.entityculling.toggle": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:fpsreducer.key.opengui": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:fpsreducer.key.forceidle": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.jade.config": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.jade.show_overlay": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.jade.toggle_liquid": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.jade.narrate": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.jade.show_details_alternative": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.zoom_in": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.zoom_out": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.minimap_type": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.minimap_preset": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.create_waypoint": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.toggle_waypoints": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.fullscreen_create_waypoint": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.fullscreen_chat_position": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.map_toggle_alt": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.fullscreen_waypoints": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.minimap_toggle_alt": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.fullscreen_options": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.fullscreen.north": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.fullscreen.south": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.fullscreen.east": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.fullscreen.west": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.journeymap.fullscreen.disable_buttons": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.modmenu.open_menu": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:zoomify.key.zoom": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:zoomify.key.zoom.secondary": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:iris.keybind.reload": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:iris.keybind.toggleshaders": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:iris.keybind.shaderpackselection": {
+          "type": "empty"
+        }
+      }
+    }
+  },
+  "compound_joysticks": [],
+  "global": {
+    "virtual_mouse_screens": [
+      "net.minecraft.class_465"
+    ],
+    "keyboard_movement": false,
+    "out_of_focus_input": false,
+    "load_vibration_natives": true,
+    "vibration_onboarded": true,
+    "reach_around": "SINGLEPLAYER_ONLY",
+    "allow_server_rumble": true,
+    "ui_sounds": true,
+    "notify_low_battery": true,
+    "delegate_setup": false,
+    "ingame_button_guide_scale": 1.0
+  }
+}
