@@ -1,0 +1,13 @@
+name = "Waffles-Optimization"
+author = "WaffleIBOT"
+version = "1.0.1+1.20.2.fabric"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "a3be1adef62cec3bf1ddbf2d076a9015dc9b15e4b85aedf1eccdb97393ed0c1c"
+
+[versions]
+fabric = "0.14.24"
+minecraft = "1.20.2"
