@@ -1,0 +1,18 @@
+resourcePacks:["vanilla","fabric","continuity:default","continuity:glass_pane_culling_fix","minecraft:supporteatinganimation","file/Chat Reporting Helper.zip","file/SodiumTranslations.zip"]
+renderDistance:8
+simulationDistance:5
+enableVsync:false
+fullscreen:true
+darkMojangStudiosBackground:true
+fov:1.0
+renderDistance:12
+simulationDistance:5
+maxFps:260
+graphicsMode:0
+tutorialStep:none
+skipMultiplayerWarning:true
+joinedFirstServer:true
+syncChunkWrites:false
+soundCategory_master:0.4
+soundCategory_music:0.1
+onboardAccessibility:true
